@@ -32,7 +32,6 @@
 
 
 
-
 // }
 
 // lesson(a);
@@ -54,4 +53,25 @@
 // }
 
 // //console.log(b);
-prompt
+prompt ("what is your name?")
+
+alert ("thats a nice name")
+
+prompt("What is your email?")
+
+function epinum(){
+    let opnum = document.getElementById("opnum").value;
+
+    while (opnum != 1050 ) {
+        alert("Wrong answer");
+        break;
+
+        opnum = "1049";
+        alert ("right ansewr" )
+      }
+
+
+}
+
+
+
